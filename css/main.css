@@ -1,0 +1,38 @@
+#p1,
+#p2,
+#p2,
+#p4,
+#p6,
+#p7{
+	background-color: skyblue;
+}
+
+#p5{
+	background-color: red;
+}
+
+#p8{
+	background-color: green;
+
+}
+
+.animation{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 45rem; left: 15rem;
+}
+
+button{
+	width: 200px;
+	height: 40px;
+	background-color: green;
+	color: white;
+}
+
+.sliderdiv{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
