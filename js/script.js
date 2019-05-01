@@ -91,7 +91,7 @@ $(document).ready(function(){
 	
 
 	/*Les animations*/
-	$("button").click(function(){
+	$("#button1").click(function(){
 		$("div").animate({
 			left:'200px',
 			opacity: 0.5,
@@ -116,7 +116,55 @@ $(document).ready(function(){
 
 	/*effet slide + annimation*/
 
-	$(".slider
-		$(".sliderdiv").slideUp(3000).slideDow(2000).fadeOut(2000);
+	// $(".slider").clic
+	// 	$(".sliderdiv").slideUp(3000).slideDow(2000).fadeOut(2000);
+	// });
+
+
+	/*Interraction entre jQuey et HTML*/
+
+	/*Extraire le texte dans un paragraphe par exemple*/
+
+	let java = $("#java").text();
+	console.log(java);
+
+	/*etraire le contenu html*/
+	let html = $("#htmltext").html();
+	console.log(html);
+
+
+	/*Recuperation et affichage de valeur d'un input*/
+	$(".start").click(function(){
+		var nom = $("#myname").val();
+		console.log(nom);	
 	});
+
+	/*Voir le contenu d'un attribut spécifique*/
+	$(".start").click(function(){
+		var attrib = $("div").attr();
+		console.log(attrib);	
+	});
+
+	/*Modification des élémnts de notre html*/
+
+	//Modifier le texte d'un paragraph
+	$("#java1").click(function(){
+		$("#java1").text("JAVA is an Object Oreinted Programming language");
+	});
+
+	//modifier le contenu html
+	$("#php1").click(function(){
+		$("#php1").html("<b>PHP</b> is an Object Oreinted Programming language");
+	});
+
+	//modifier un attribut
+
+	/*Ajouter des nouveaux elements html a notre page*/
+	//ajout paragraphe
+
+	$(".addparagraph").click(function(){
+		$(".love").append("<p>My favorites languages: Java, PHP, JavaScript</p>");
+	});
+
+
 });

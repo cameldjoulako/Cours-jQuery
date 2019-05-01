@@ -36,3 +36,17 @@ button{
 	height: 100px;
 	background-color: orange;
 }
+
+.extractiontexte{
+	background: skyblue;
+}
+
+
+p#java{
+	background-color: green;
+}
+
+.love{
+	background-color: orange;
+	color: white;
+}
