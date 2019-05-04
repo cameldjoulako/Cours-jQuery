@@ -50,3 +50,22 @@ p#java{
 	background-color: orange;
 	color: white;
 }
+
+
+/*jQuery et css*/
+.green{
+	color: green;
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+
+/*jquery et l'arboressance*/
+
+#main *{
+	border: 5px solid purple;
+	margin: 10px;
+}
